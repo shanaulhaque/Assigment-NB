@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sh.nobroker.FilterProperty"
+    tools:showIn="@layout/activity_filter_property"
+    android:background="@color/light_gray"
+    >
+
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apartment Type"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_margin="10dp"/>
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alignContent="flex_start"
+            app:alignItems="flex_start"
+            app:flexWrap="wrap"
+            app:showDivider="beginning|middle"
+            app:dividerDrawable="@drawable/divider">
+
+            <ToggleButton
+                android:id="@+id/tb_rk1"
+                style="@style/ToggleButton"
+                android:text="@string/rk_1"
+            />
+
+            <ToggleButton
+                android:id="@+id/tb_bhk1"
+                style="@style/ToggleButton"
+                android:text="@string/bhk_1"
+                />
+
+            <ToggleButton
+                android:id="@+id/tb_bhk2"
+                style="@style/ToggleButton"
+                android:text="@string/bhk_2"
+                />
+            <ToggleButton
+                android:id="@+id/tb_bhk3"
+                style="@style/ToggleButton"
+                android:text="@string/bhk_3"
+                />
+
+            <ToggleButton
+                android:id="@+id/tb_bhk4"
+                style="@style/ToggleButton"
+                android:text="@string/bhk_4"
+                />
+
+            <ToggleButton
+                android:id="@+id/tb_bhk4_plus"
+                style="@style/ToggleButton"
+                android:text="@string/bhk_4_plus"
+                />
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Property Type"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_margin="10dp"/>
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alignContent="flex_start"
+            app:alignItems="flex_start"
+            app:flexWrap="wrap"
+            app:showDivider="beginning|middle"
+            app:dividerDrawable="@drawable/divider" >
+
+            <ToggleButton
+                android:id="@+id/apartment"
+                style="@style/ToggleButton"
+                android:text="@string/apartment"
+                />
+
+            <ToggleButton
+                android:id="@+id/independent_house_villa"
+                style="@style/ToggleButton"
+                android:text="@string/house_villa"
+                />
+
+            <ToggleButton
+                android:id="@+id/independent_floor_builder"
+                style="@style/ToggleButton"
+                android:text="@string/floor"
+                />
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Furnished"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_margin="10dp"/>
+
+        <com.google.android.flexbox.FlexboxLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alignContent="flex_start"
+            app:alignItems="flex_start"
+            app:flexWrap="wrap"
+            app:showDivider="beginning|middle"
+            app:dividerDrawable="@drawable/divider" >
+
+            <ToggleButton
+                android:id="@+id/semi"
+                style="@style/ToggleButton"
+                android:text="@string/semi"
+                />
+
+            <ToggleButton
+                android:id="@+id/full"
+                style="@style/ToggleButton"
+                android:text="@string/full"
+                />
+
+            <ToggleButton
+                android:id="@+id/none_furnished"
+                style="@style/ToggleButton"
+                android:text="@string/none"
+                />
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

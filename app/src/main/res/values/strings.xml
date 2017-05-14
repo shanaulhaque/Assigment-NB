@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NoBroker</string>
+    <string name="Rs">\u20B9</string>
+    <string name="title_activity_filter_property">FilterProperty</string>
+    <string name="rk_1">1 RK</string>
+    <string name="bhk_1">1 BHK</string>
+    <string name="bhk_2">2 BHK</string>
+    <string name="bhk_3">3 BHK</string>
+    <string name="bhk_4">4 BHK</string>
+    <string name="bhk_4_plus">4+ BHK</string>
+    <string name="apartment">Apartment</string>
+    <string name="house_villa">Independent House/Villa</string>
+    <string name="floor">Independent Floor/Builder Floor</string>
+    <string name="semi">Semi</string>
+    <string name="full">Full</string>
+    <string name="none">Not Furnished</string>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="">
+<android.support.v7.widget.CardView
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="330dp"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    android:padding="2dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="6"
+        >
+
+        <RelativeLayout
+            android:layout_weight="4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/tv_property_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:text="@string/app_name"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_property_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_below="@+id/tv_property_title"
+                android:text="@string/app_name"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#D3D3D3"
+            />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="15dp"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/heart_outline"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#D3D3D3"
+            />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="15dp"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/phone"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_property_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_footer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="3">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/tv_rent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:text="@string/app_name"
+                android:layout_marginLeft="10dp"
+                />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#D3D3D3"
+            />
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/tv_furnising"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="12sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_bathroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_furnising"
+                android:textSize="12sp"
+                android:text="@string/app_name"
+                android:layout_marginLeft="10dp"
+                />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#D3D3D3"
+            />
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/tv_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:text="@string/app_name"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_area"
+                android:layout_centerHorizontal="true"
+                android:text="Built up Area"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>
